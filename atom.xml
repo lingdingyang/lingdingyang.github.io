@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com</id>
     <title>lingdingyang</title>
-    <updated>2021-04-07T05:58:43.664Z</updated>
+    <updated>2021-04-07T06:12:15.869Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com"/>
     <link rel="self" href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/atom.xml"/>
@@ -10,12 +10,12 @@
     <icon>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2021, lingdingyang</rights>
     <entry>
-        <title type="html"><![CDATA[333]]></title>
-        <id>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/12/</id>
-        <link href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/12/">
+        <title type="html"><![CDATA[第一篇Blog]]></title>
+        <id>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/di-yi-pian-blog/</id>
+        <link href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/di-yi-pian-blog/">
         </link>
-        <updated>2021-04-06T13:42:56.000Z</updated>
-        <content type="html"><![CDATA[<p>测试🙁</p>
+        <updated>2021-04-07T06:04:51.000Z</updated>
+        <content type="html"><![CDATA[<p>作为一个资深的自闭人，平时逛B站都不愿意发弹幕或评论怎么又会愿意发博客呢。反正因为种种原因我开了这个博客，原以为这会是一个挺简单的事，没想到一下让我整了四天。</p>
 ]]></content>
     </entry>
 </feed>
