@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lingdingyang.github.io/</id>
+    <id>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com</id>
     <title>lingdingyang</title>
-    <updated>2021-04-06T15:45:35.265Z</updated>
+    <updated>2021-04-07T05:52:57.376Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lingdingyang.github.io/"/>
-    <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
-    <logo>https://lingdingyang.github.io/images/avatar.png</logo>
-    <icon>https://lingdingyang.github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com"/>
+    <link rel="self" href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/atom.xml"/>
+    <logo>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/images/avatar.png</logo>
+    <icon>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2021, lingdingyang</rights>
     <entry>
         <title type="html"><![CDATA[333]]></title>
-        <id>https://lingdingyang.github.io/post/12/</id>
-        <link href="https://lingdingyang.github.io/post/12/">
+        <id>https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/12/</id>
+        <link href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/post/12/">
         </link>
         <updated>2021-04-06T13:42:56.000Z</updated>
         <content type="html"><![CDATA[<p>测试🙁</p>
