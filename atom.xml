@@ -2,13 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lingdingyang.github.io</id>
     <title>lingdingyang</title>
-    <updated>2021-04-11T06:58:51.705Z</updated>
+    <updated>2021-04-13T11:56:46.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lingdingyang.github.io"/>
     <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
     <logo>https://lingdingyang.github.io/images/avatar.png</logo>
     <icon>https://lingdingyang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, lingdingyang</rights>
+    <entry>
+        <title type="html"><![CDATA[Learning How to Learn]]></title>
+        <id>https://lingdingyang.github.io/post/learning-how-to-learn/</id>
+        <link href="https://lingdingyang.github.io/post/learning-how-to-learn/">
+        </link>
+        <updated>2021-04-13T11:26:31.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="第一周">第一周</h1>
+<p>两种思考模式：专注模式，发散模式。对于熟悉的问题，专注模式可以快速联想到问题，并快速解决，但对于一个陌生的问题，专注模式反而会限制你的思路，更难找到解决问题的方式。发散模式在面对新问题时可以帮助你开阔思路，找到解决问题的方向。<br>
+<img src="https://lingdingyang.github.io/post-images/1618313732888.png" alt="" loading="lazy"><br>
+专注模式思路更加密集，可以快速跳转，但也限制了大范围思考。<br>
+<img src="https://lingdingyang.github.io/post-images/1618313737493.png" alt="" loading="lazy"><br>
+发散模式相对稀疏，可以在不同的思路中跳转，有更广阔的的思考范围。<br>
+专注模式需要集中精神，发散模式需要放松，将思路放开。</p>
+<hr>
+<p>克服拖延症，番茄工作法。</p>
+<blockquote>
+<ul>
+<li>计时器计时25分钟。</li>
+<li>25分钟内完全集中注意力。</li>
+<li>结束后给自己一点奖励。</li>
+</ul>
+</blockquote>
+<hr>
+<p>睡眠很重要。睡眠不仅可以帮助排出大脑中的有毒物质，还可以帮助记忆正在学习的内容。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一篇BLOG]]></title>
         <id>https://lingdingyang.github.io/post/di-yi-pian-blog/</id>
