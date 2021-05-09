@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lingdingyang.github.io</id>
     <title>lingdingyang</title>
-    <updated>2021-05-08T14:07:44.490Z</updated>
+    <updated>2021-05-09T07:43:02.363Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lingdingyang.github.io"/>
     <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
@@ -25,10 +25,10 @@
 <h2 id="javascript">javascript</h2>
 <p>JavaScript是一种可以插入到html中的脚本语言。它和一般面向对象的编程语言比较像。它由html中的事件进行调用，并且需要在后面给出定义。也可以在多处不同地方进行调用。</p>
 <h1 id="微型项目">微型项目</h1>
-<p>经过学长的一下午讲解，又经历了我一个多周的摸索，自学，勉强完成了任务的阉割版，有点丑陋.，而且还有些Bug....<br>
-目前已发现的包括且但不限于：</p>
+<p>经过学长的一下午讲解，又经历了我一个多周的摸索，自学，勉强完成了任务的阉割版，有点丑陋.，而且还有些Bug....</p>
+<p>目前已发现的包括且但不限于：</p>
 <ul>
-<li>添加时点取消还是会添加上</li>
+<li>添加时点取消还是会添加上  （<s>我发现学长写的也有这个情况</s>）</li>
 <li>勾选一个事件后其下一个事件也会变为勾选的状态（原因不明.....）</li>
 <li>由于技术原因“全部”中无法做到勾选和删除，且在“已解决”和“未解决”中删除并无法同步到全部中</li>
 </ul>
@@ -399,6 +399,8 @@ section {
 <hr>
 <h2 id="先难后易的考试策略">先难后易的考试策略：</h2>
 <p>现从难题开始，然后迅速转向容易的题。浏览一遍所有题目后，从看起来比较难的题开始，阅读完后感到没思路也没问题，这时再去做简单的题，这期间你会发散思路为解决这道难题提供思路。</p>
+<h1 id="结课了">结课了！！！</h1>
+<figure data-type="image" tabindex="1"><img src="https://lingdingyang.github.io/post-images/1620546161834.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
