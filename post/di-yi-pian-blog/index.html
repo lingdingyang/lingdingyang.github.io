@@ -13,7 +13,7 @@
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://lingdingyang.github.io/images/avatar.png?v=1620563645975" style="width:127px;" />
+     <img src="https://lingdingyang.github.io/images/avatar.png?v=1620563719647" style="width:127px;" />
 
      <h3 title=""><a href="/">lingdingyang</a></h3>
 
@@ -121,6 +121,31 @@
         
        </ul>
       </div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+          
         
      </div>
     </div>
