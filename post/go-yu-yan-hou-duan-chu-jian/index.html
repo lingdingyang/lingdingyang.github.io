@@ -13,7 +13,7 @@
      <div class="sidebar animated fadeInDown">
    <div class="logo-title">
     <div class="title">
-     <img src="https://lingdingyang.github.io/images/avatar.png?v=1622552255812" style="width:127px;" />
+     <img src="https://lingdingyang.github.io/images/avatar.png?v=1622553312365" style="width:127px;" />
 
      <h3 title=""><a href="/">lingdingyang</a></h3>
 
@@ -84,33 +84,33 @@
 <p>后端与前端相反，前端重点实现的是页面的样式和一些简单的逻辑，在编程实现时往往可以确实看到每一行代码在界面上实现了怎样的效果，而后端则是作为后台对数据进行操作。因为一般要维护的数据量比较大，往往不能直观的观察数据在数据库中的储存情况，只能通过日志之类的记录方式来确定数据库的稳定运行，因此我觉得后端比前端难好多。。。。。</p>
 <p>因为后端涉及的知识太多了，我自己懂得知识也都非常浅显，就简单对照代码分析下</p>
 <pre><code class="language-go">package main
-import (
+import (                    //类似于c的include，引入其他库的函数
 	&quot;fmt&quot;
 	&quot;net/http&quot;
 	&quot;github.com/labstack/echo/v4&quot;
 	db &quot;github.com/replit/database-go&quot;
 )
 func main() {
-	e := echo.New()
-	e.GET(&quot;/&quot;, hello)
+	e := echo.New()                 //相当于创建了新的一个主页，网站为https://ldy.lingdingyang.repl.co
+	e.GET(&quot;/&quot;, hello)                   //主页下的一个子页面，在主页网址的后面加上&quot;/&quot;，https://ldy.lingdingyang.repl.co/，会调用hello函数实现页面内容，下面两个同理
 	e.POST(&quot;/subscribe&quot;, subscribe)
 	e.GET(&quot;/get&quot;, GET)
 	e.Logger.Fatal(e.Start(&quot;:1323&quot;))
 }
 func hello(c echo.Context) error {
-	return c.String(http.StatusOK, &quot;Hello, World!&quot;)
+	return c.String(http.StatusOK, &quot;Hello, World!&quot;)             //在页面上打印出Hello,Woeld!
 }
 func subscribe(c echo.Context) error {
-	email := c.FormValue(&quot;email&quot;)
+	email := c.FormValue(&quot;email&quot;)           
 	name := c.FormValue(&quot;name&quot;)
-	db.Set(email, name)
-	value, _ := db.Get(email)
-	return c.String(http.StatusOK, fmt.Sprintf(&quot;1111，value=%s&quot;, value))
+	db.Set(email, name)             //将数据写入数据库
+	value, _ := db.Get(email)       //将数据从数据库中读出
+	return c.String(http.StatusOK, fmt.Sprintf(&quot;1111，value=%s&quot;, value))        //打印在页面上
 }
 func GET(c echo.Context) error {
-	email := c.QueryParam(&quot;email&quot;)
+	email := c.QueryParam(&quot;email&quot;)          //这时搜索数据时用的页面，例如我要寻找邮箱为1426230684@email.com的人名，就打开网页https://ldy.lingdingyang.repl.co/get?email=1426230684@email.com
 	value, _ := db.Get(email)
-	return c.String(http.StatusOK, email+&quot;  &quot;+value)
+	return c.String(http.StatusOK, email+&quot;  &quot;+value)            //将结果打印在网页上
 }
 func show(c echo.Context) error {
 	team := c.QueryParam(&quot;team&quot;)
@@ -119,6 +119,9 @@ func show(c echo.Context) error {
 }
 // curl -F &quot;email=1426230684@email.com&quot; -F &quot;name=lingdingyang&quot; https://ldy.lingdingyang.repl.co/subscribe
 </code></pre>
+<p>一点效果图<br>
+<img src="https://lingdingyang.github.io/post-images/1622553185191.png" alt="" loading="lazy"></p>
+<p>代码中用的数据库的指令都是直接拿来用的，还有创建网页的那些指令，我还都完全不懂它们的实现方式和一些更深入的使用方法，所以就先只能写这些了。。。。。</p>
 
        </div>
        <div class="post-footer">
