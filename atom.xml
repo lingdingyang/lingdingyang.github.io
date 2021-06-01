@@ -2,13 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lingdingyang.github.io</id>
     <title>lingdingyang</title>
-    <updated>2021-06-01T12:19:42.834Z</updated>
+    <updated>2021-06-01T12:20:21.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lingdingyang.github.io"/>
     <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
     <logo>https://lingdingyang.github.io/images/avatar.png</logo>
     <icon>https://lingdingyang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, lingdingyang</rights>
+    <entry>
+        <title type="html"><![CDATA[go语言后端初见]]></title>
+        <id>https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/</id>
+        <link href="https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/">
+        </link>
+        <updated>2021-06-01T12:19:49.000Z</updated>
+        <content type="html"><![CDATA[<p>........</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ifLab BootCamp Wab前端学习]]></title>
         <id>https://lingdingyang.github.io/post/iflab-bootcamp-wab-qian-duan-xue-xi/</id>
