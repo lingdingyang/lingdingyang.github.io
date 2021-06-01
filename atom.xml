@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lingdingyang.github.io</id>
     <title>lingdingyang</title>
-    <updated>2021-06-01T12:21:56.969Z</updated>
+    <updated>2021-06-01T12:57:38.944Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lingdingyang.github.io"/>
     <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
@@ -14,8 +14,46 @@
         <id>https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/</id>
         <link href="https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/">
         </link>
-        <updated>2021-06-01T12:19:49.000Z</updated>
-        <content type="html"><![CDATA[<p>........</p>
+        <updated>2021-05-09T12:19:49.000Z</updated>
+        <content type="html"><![CDATA[<p>这周是泉总带我们学习GO语言的后端基础。</p>
+<p>后端与前端相反，前端重点实现的是页面的样式和一些简单的逻辑，在编程实现时往往可以确实看到每一行代码在界面上实现了怎样的效果，而后端则是作为后台对数据进行操作。因为一般要维护的数据量比较大，往往不能直观的观察数据在数据库中的储存情况，只能通过日志之类的记录方式来确定数据库的稳定运行，因此我觉得后端比前端难好多。。。。。</p>
+<p>因为后端涉及的知识太多了，我自己懂得知识也都非常浅显，就简单对照代码分析下</p>
+<pre><code class="language-go">package main
+import (
+	&quot;fmt&quot;
+	&quot;net/http&quot;
+	&quot;github.com/labstack/echo/v4&quot;
+	db &quot;github.com/replit/database-go&quot;
+)
+func main() {
+	e := echo.New()
+	e.GET(&quot;/&quot;, hello)
+	e.POST(&quot;/subscribe&quot;, subscribe)
+	e.GET(&quot;/get&quot;, GET)
+	e.Logger.Fatal(e.Start(&quot;:1323&quot;))
+}
+func hello(c echo.Context) error {
+	return c.String(http.StatusOK, &quot;Hello, World!&quot;)
+}
+func subscribe(c echo.Context) error {
+	email := c.FormValue(&quot;email&quot;)
+	name := c.FormValue(&quot;name&quot;)
+	db.Set(email, name)
+	value, _ := db.Get(email)
+	return c.String(http.StatusOK, fmt.Sprintf(&quot;1111，value=%s&quot;, value))
+}
+func GET(c echo.Context) error {
+	email := c.QueryParam(&quot;email&quot;)
+	value, _ := db.Get(email)
+	return c.String(http.StatusOK, email+&quot;  &quot;+value)
+}
+func show(c echo.Context) error {
+	team := c.QueryParam(&quot;team&quot;)
+	member := c.QueryParam(&quot;member&quot;)
+	return c.String(http.StatusOK, &quot;team:&quot;+team+&quot;, member:&quot;+member)
+}
+// curl -F &quot;email=1426230684@email.com&quot; -F &quot;name=lingdingyang&quot; https://ldy.lingdingyang.repl.co/subscribe
+</code></pre>
 ]]></content>
     </entry>
     <entry>
