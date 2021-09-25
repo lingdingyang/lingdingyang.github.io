@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sevilstar.github.io</id>
+    <id>https://lingdingyang.github.io</id>
     <title>lingdingyang</title>
-    <updated>2021-09-25T15:46:36.452Z</updated>
+    <updated>2021-09-25T15:51:13.514Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sevilstar.github.io"/>
-    <link rel="self" href="https://sevilstar.github.io/atom.xml"/>
-    <logo>https://sevilstar.github.io/images/avatar.png</logo>
-    <icon>https://sevilstar.github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://lingdingyang.github.io"/>
+    <link rel="self" href="https://lingdingyang.github.io/atom.xml"/>
+    <logo>https://lingdingyang.github.io/images/avatar.png</logo>
+    <icon>https://lingdingyang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, lingdingyang</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://sevilstar.github.io/post/test/</id>
-        <link href="https://sevilstar.github.io/post/test/">
+        <id>https://lingdingyang.github.io/post/test/</id>
+        <link href="https://lingdingyang.github.io/post/test/">
         </link>
         <updated>2021-09-25T13:55:42.000Z</updated>
         <content type="html"><![CDATA[<p>text</p>
@@ -20,8 +20,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[go语言后端初见]]></title>
-        <id>https://sevilstar.github.io/post/go-yu-yan-hou-duan-chu-jian/</id>
-        <link href="https://sevilstar.github.io/post/go-yu-yan-hou-duan-chu-jian/">
+        <id>https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/</id>
+        <link href="https://lingdingyang.github.io/post/go-yu-yan-hou-duan-chu-jian/">
         </link>
         <updated>2021-05-09T12:19:49.000Z</updated>
         <content type="html"><![CDATA[<p>这周是泉总带我们学习GO语言的后端基础。</p>
@@ -64,15 +64,15 @@ func show(c echo.Context) error {
 // curl -F &quot;email=1426230684@email.com&quot; -F &quot;name=lingdingyang&quot; https://ldy.lingdingyang.repl.co/subscribe
 </code></pre>
 <p>一点效果图<br>
-<img src="https://sevilstar.github.io/post-images/1622553778936.png" alt="" loading="lazy"><br>
-<img src="https://sevilstar.github.io/post-images/1622553185191.png" alt="" loading="lazy"></p>
+<img src="https://lingdingyang.github.io/post-images/1622553778936.png" alt="" loading="lazy"><br>
+<img src="https://lingdingyang.github.io/post-images/1622553185191.png" alt="" loading="lazy"></p>
 <p>代码中用的数据库的指令都是直接拿来用的，还有创建网页的那些指令，我还都完全不懂它们的实现方式和一些更深入的使用方法，所以就先只能写这些了。。。。。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[ifLab BootCamp Wab前端学习]]></title>
-        <id>https://sevilstar.github.io/post/iflab-bootcamp-wab-qian-duan-xue-xi/</id>
-        <link href="https://sevilstar.github.io/post/iflab-bootcamp-wab-qian-duan-xue-xi/">
+        <id>https://lingdingyang.github.io/post/iflab-bootcamp-wab-qian-duan-xue-xi/</id>
+        <link href="https://lingdingyang.github.io/post/iflab-bootcamp-wab-qian-duan-xue-xi/">
         </link>
         <updated>2021-05-07T06:08:27.000Z</updated>
         <content type="html"><![CDATA[<p>在学长的介绍和讲解下，简单学习了wab前端的一些知识，稍微对wab前端有了一些了解。<br>
@@ -94,9 +94,9 @@ func show(c echo.Context) error {
 </ul>
 <p>有些问题我已经有了些解决的思路，碍于解决需要推到重来就没去做.....<br>
 一点效果图<br>
-<img src="https://sevilstar.github.io/post-images/1620368923108.png" alt="" loading="lazy"><br>
-<img src="https://sevilstar.github.io/post-images/1620368933326.png" alt="" loading="lazy"><br>
-<img src="https://sevilstar.github.io/post-images/1620368941048.png" alt="" loading="lazy"></p>
+<img src="https://lingdingyang.github.io/post-images/1620368923108.png" alt="" loading="lazy"><br>
+<img src="https://lingdingyang.github.io/post-images/1620368933326.png" alt="" loading="lazy"><br>
+<img src="https://lingdingyang.github.io/post-images/1620368941048.png" alt="" loading="lazy"></p>
 <p>最后上代码</p>
 <pre><code class="language-html">&lt;template&gt;
   &lt;div id=&quot;app&quot;&gt;
@@ -362,8 +362,8 @@ section {
     </entry>
     <entry>
         <title type="html"><![CDATA[蓝桥杯游记]]></title>
-        <id>https://sevilstar.github.io/post/lan-qiao-bei-you-ji/</id>
-        <link href="https://sevilstar.github.io/post/lan-qiao-bei-you-ji/">
+        <id>https://lingdingyang.github.io/post/lan-qiao-bei-you-ji/</id>
+        <link href="https://lingdingyang.github.io/post/lan-qiao-bei-you-ji/">
         </link>
         <updated>2021-04-18T13:07:14.000Z</updated>
         <content type="html"><![CDATA[<p>虽然只是B组，但题目还是比我想象的难了些。<br>
@@ -376,15 +376,15 @@ section {
     </entry>
     <entry>
         <title type="html"><![CDATA[Learning How to Learn]]></title>
-        <id>https://sevilstar.github.io/post/learning-how-to-learn/</id>
-        <link href="https://sevilstar.github.io/post/learning-how-to-learn/">
+        <id>https://lingdingyang.github.io/post/learning-how-to-learn/</id>
+        <link href="https://lingdingyang.github.io/post/learning-how-to-learn/">
         </link>
         <updated>2021-04-13T11:26:31.000Z</updated>
         <content type="html"><![CDATA[<h1 id="第一周">第一周</h1>
 <p>两种思考模式：专注模式，发散模式。对于熟悉的问题，专注模式可以快速联想到问题，并快速解决，但对于一个陌生的问题，专注模式反而会限制你的思路，更难找到解决问题的方式。发散模式在面对新问题时可以帮助你开阔思路，找到解决问题的方向。<br>
-<img src="https://sevilstar.github.io/post-images/1618313732888.png" alt="" loading="lazy"><br>
+<img src="https://lingdingyang.github.io/post-images/1618313732888.png" alt="" loading="lazy"><br>
 专注模式思路更加密集，可以快速跳转，但也限制了大范围思考。<br>
-<img src="https://sevilstar.github.io/post-images/1618313737493.png" alt="" loading="lazy"><br>
+<img src="https://lingdingyang.github.io/post-images/1618313737493.png" alt="" loading="lazy"><br>
 发散模式相对稀疏，可以在不同的思路中跳转，有更广阔的的思考范围。<br>
 专注模式需要集中精神，发散模式需要放松，将思路放开。</p>
 <hr>
@@ -460,18 +460,18 @@ section {
 <h2 id="先难后易的考试策略">先难后易的考试策略：</h2>
 <p>现从难题开始，然后迅速转向容易的题。浏览一遍所有题目后，从看起来比较难的题开始，阅读完后感到没思路也没问题，这时再去做简单的题，这期间你会发散思路为解决这道难题提供思路。</p>
 <h1 id="结课了">结课了！！！</h1>
-<figure data-type="image" tabindex="1"><img src="https://sevilstar.github.io/post-images/1620546161834.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://lingdingyang.github.io/post-images/1620546161834.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇BLOG]]></title>
-        <id>https://sevilstar.github.io/post/di-yi-pian-blog/</id>
-        <link href="https://sevilstar.github.io/post/di-yi-pian-blog/">
+        <id>https://lingdingyang.github.io/post/di-yi-pian-blog/</id>
+        <link href="https://lingdingyang.github.io/post/di-yi-pian-blog/">
         </link>
         <updated>2021-04-11T01:19:39.000Z</updated>
         <content type="html"><![CDATA[<p><s>第一篇BLOG</s></p>
 <p>​       其实这不是第一篇Blog，之前用Hugo搭配Github尝试搭建结果失败了，感觉是网络问题，本地浏览没有问题但是总是上传不成功....<br>
-在寻找解决办法时我又碰巧了解了Gridea，用它来搭建blog可方便太多了，而且还有可视化的界面方便维护。<img src="https://sevilstar.github.io/post-images/1618123773581.png" alt="" loading="lazy"><br>
+在寻找解决办法时我又碰巧了解了Gridea，用它来搭建blog可方便太多了，而且还有可视化的界面方便维护。<img src="https://lingdingyang.github.io/post-images/1618123773581.png" alt="" loading="lazy"><br>
 为了绕开网络问题，我又选择将库建在Coding上而不是Github。我迫不及待的尝试了一发。<br>
 <a href="https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/">这里</a>（https://coding-pages-bucket-3546209-8589664-15590-561094-1305511806.cos-website.ap-beijing.myqcloud.com/）<br>
 额...虽然是成功了，更新维护的速度很快也很方便，但这个网址真的是又长又难记，实在是太掉价了，不行，看来还是要用Github。<br>
